@@ -1,6 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Monoton|Raleway');
+
+/*Logo: font-family: 'Monoton', cursive;*/
+/*headers: font-family: 'Do Hyeon', sans-serif;*/
+/*paragraphs: font-family: 'Raleway', sans-serif;*/
+
 body {
     background-image: url(../images/.lincwine.JPG);
     width: 100%;
     background-size: cover;
      background-repeat: no-repeat;
+     padding:0;
+     margin: 0;
 }
+
+.logo h1{
+    font-family: 'Monoton', cursive;
+    font-size:50px;
+    color:#7B3A8E;
+}
+p{
+   font-family: 'Raleway', sans-serif;
+   padding:20px;
+}
+h1{
+    font-family: 'Do Hyeon', sans-serif;
+}
+.intro{
+    
+    background-color: black;
+    padding:30px;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Do Hyeon', sans-serif;
+    color:#A83236;
+}
+
+.intro p{
+    width:50%;
+    margin:auto;
+    color:white;
+}
+
+#culinary{
+    background-color: #E8E9EA;
+}
+
+#culinary h1{
+    background-image: url(../images/lincWine.jpg);
+    color:white;
+    padding:30px;
+    background-position: center;
+}
+
+#art h1{
+    background-image: url(../images/met2.JPG);
+    color:white;
+    padding:30px;
+    background-position: center;
+}
+#nightlife h1{
+    background-image: url(../images/timesqnight.jpg);
+    color:white;
+    padding:30px;
+    background-position: center;
+}
+
+
+#art{
+    background-color:#999999;
+}
+
+#nightlife{
+    background-color: #696E70;
+}
+img{
+    width:200px;
+}
+
+.section{
+    /*display: flex;*/
+}
+
+.images{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.images img{
+    align-self:center;
+}
+
+
+
+
